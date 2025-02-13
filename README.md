@@ -24,7 +24,7 @@ A web application that converts text into realistic speech using OpenAI's Text-t
 ### Backend Setup:
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/text-to-speech-backend.git
+   git clone https://github.com/maniyadhav997/Text-To-Speeach-conveter.git
    ```
 2. Navigate to the backend folder:
    ```sh
