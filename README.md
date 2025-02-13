@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Text-to-Speech Converter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+A web application that converts text into realistic speech using OpenAI's Text-to-Speech API. Users can enter text, select a voice, generate speech, play the audio, and download it.
 
-## Available Scripts
+## Features
+- Input text to convert into speech.
+- Select from multiple voice styles.
+- Generate and listen to speech.
+- Download the generated speech as an audio file.
 
-In the project directory, you can run:
+## Technologies Used
+### Frontend:
+- React.js
+- Axios (for API requests)
 
-### `npm start`
+### Backend:
+- Node.js
+- Express.js
+- Axios (for API communication)
+- OpenAI's Text-to-Speech API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup and Installation
+### Backend Setup:
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo/text-to-speech-backend.git
+   ```
+2. Navigate to the backend folder:
+   ```sh
+   cd text-to-speech-backend
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Create a `.env` file and add your OpenAI API key:
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
+5. Start the server:
+   ```sh
+   npm start
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Frontend Setup:
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo/text-to-speech-frontend.git
+   ```
+2. Navigate to the frontend folder:
+   ```sh
+   cd text-to-speech-frontend
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the frontend application:
+   ```sh
+   npm start
+   ```
 
-### `npm test`
+## Usage
+1. Open the frontend in your browser.
+2. Enter text, choose a voice, and click the "Generate Speech" button.
+3. Listen to the generated audio and download it if needed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment
+- The backend can be deployed on platforms like Heroku, Vercel, or AWS.
+- The frontend can be hosted on Vercel or Netlify.
 
-### `npm run build`
+## Future Enhancements
+- Support for more languages and voices.
+- User authentication for API usage.
+- Improved UI/UX.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
+This project is open-source and available under the MIT License.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+For any questions or issues, please contact [yadavmani8543@gmail.com].
